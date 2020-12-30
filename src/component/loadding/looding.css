@@ -1,0 +1,60 @@
+.app .pair_looding{
+    width: 55%;
+    margin: auto;
+    float: left;
+    height: 100vh;
+    color: #fff;
+}
+
+.app .pair_looding .lood_center{
+    width: 97%;
+    height: 100%;
+    margin: auto;
+    padding: 6% 0;
+    text-align: center;
+}
+
+.app .one , .app .two , .app .three{
+    width: 85%;
+    display: flex;
+    margin-bottom: 6%;
+    align-items: center;
+    justify-content: center;
+}
+.app .one span , .app .two span , .app .three span{
+    background: rgb(56, 55, 55);
+    width: 70%;
+    display: inline-block;
+    width: 50%;
+    height: 25px;
+    border-radius: 5px;
+    animation: toggel2 .7s reverse infinite;
+    animation-direction: alternate-reverse;
+    transition: all .7s;
+}
+.app .one span:first-of-type , .app .two span:first-of-type , .app .three span:first-of-type{
+    background: rgb(66, 65, 65); 
+    width: 50px;
+    display: inline-block;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 1%;
+    animation: toggel .7s reverse  infinite;
+    animation-direction: alternate-reverse;
+    transition: all .7s;
+}
+
+@keyframes toggel {
+    from {
+        background: #393c3f;;
+    }to{
+        background: #484c50;;
+    }
+}
+@keyframes toggel2 {
+    from {
+        background: #373a3d;
+    }to{
+        background: #55585c;
+    }
+}

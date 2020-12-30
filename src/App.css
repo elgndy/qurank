@@ -1,0 +1,421 @@
+/*.lodding_screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1111;
+  background: #222;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.lodding_screen img {
+  width: 300px;
+  height: 300px;
+  animation: rot 2s infinite alternate;
+}*/
+
+
+
+.lodded{
+  width: 100%;
+  height: 100vh;
+  background: rgb(0, 14, 27);
+  position: fixed;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.lm {
+	animation: rotation 1s linear 0s normal infinite none running;
+	background-color: transparent;
+	border-radius: 100%;
+	box-shadow: 0 .5rem 0.12rem 0 inset #fff, 0 -.5rem 2rem -1rem #fff;
+	height: 5rem;
+  width:5rem;
+  
+}
+@keyframes rotation {
+	100% {transform: rotate(360deg)}
+}
+
+
+.app {
+  width: 100%;
+  min-height: 1000px;
+  overflow: hidden;
+  background: #23282d;
+  transition: all 0.2s;
+  padding-bottom: 7%;
+}
+
+/*up icon */
+/*up icon*/
+.darkmood .nav_pair {
+  background: 0;
+  transition: all 0.2s ease-in;
+}
+.darkmood {
+  min-height: 1000px;
+  transition: all 0.2s;
+  overflow: hidden;
+  background: #ddd;
+  padding-bottom: 7%;
+}
+.darkmood .info .toggel_icon {
+  color: #333;
+}
+.darkmood .info .toggel_icon:hover {
+  background: #eee;
+}
+.darkmood .pair_desk {
+  color: #333;
+}
+
+.darkmood .develop a {
+  color: #b16605;
+}
+.darkmood #player {
+  box-shadow: -0px 5px 5px #d4d3d3, 0px -3px 5px #d4d3d3;
+  background-image: url(./imgs/bac4.png);
+}
+.darkmood .list_side {
+  background: #eee;
+}
+.darkmood .list_side a {
+  color: #333;
+  background: rgba(202, 202, 202, 0.5) !important;
+  box-shadow: -0px 3px 1px #b8b1b1;
+}
+.darkmood .list_side a li i {
+  color: #ad7f00;
+}
+
+/*form*/
+.darkmood .form {
+  box-shadow: -1px 3px 1px #d6d5d5, 1px -1px 1px #d6d5d5;
+}
+.darkmood .form input {
+  color: #343a41;
+  background: #fbfbfb;
+}
+
+.darkmood .coloneelement {
+  margin-top: 2%;
+  background: rgb(235, 235, 235);
+  box-shadow: -0px 3px 1px #d4d3d3;
+}
+
+.darkmood .coloneelement div p {
+  color: #b16605;
+}
+
+/*home*/
+.darkmood .home_pairant div {
+  background: #fff;
+}
+.darkmood .pair_btns {
+  color: #ffa733;
+  background: rgb(223, 223, 223, 0.5) !important;
+  box-shadow: -0px 2px 1px #dfdfdf;
+}
+
+.darkmood .home_pairant div p:first-of-type {
+  color: #555;
+}
+
+/*audio*/
+
+.darkmood .pair_audio div {
+  background: #fff;
+  border-radius: 3px;
+  box-shadow: -0px 2px 1px #dfdfdf;
+}
+
+.darkmood .audio {
+  transition: all 0.3s;
+  background: rgb(223, 223, 223, 0.5) !important;
+}
+.darkmood .audio:hover {
+  background: rgba(202, 202, 202, 0.5) !important;
+  transition: all 0.3s;
+}
+.darkmood .infos p {
+  background: #ffffff;
+  color: #ffab40;
+  box-shadow: -0px 2px 1px #c0c0c0;
+}
+.darkmood .suranum1 {
+  color: #444 !important;
+  font-size: 20px !important;
+  margin-bottom: 0% !important;
+}
+.darkmood .suranum2 {
+  color: #999 !important;
+  font-size: 14px !important;
+  margin-bottom: 10% !important;
+}
+
+.darkmood .pair_looding {
+  width: 55%;
+  margin: auto;
+  float: left;
+  height: 1000px;
+  color: #000;
+}
+
+.darkmood .pair_looding .lood_center {
+  width: 97%;
+  height: 100%;
+  margin: auto;
+  padding: 6% 0;
+  text-align: center;
+}
+
+.g {
+  color:red;
+  
+}
+
+.darkmood .one,
+.darkmood .two,
+.darkmood .three {
+  width: 85%;
+  display: flex;
+  margin-bottom: 6%;
+  align-items: center;
+  justify-content: center;
+}
+.darkmood .one span,
+.darkmood .two span,
+.darkmood .three span {
+  background: rgb(230, 230, 230);
+  width: 70%;
+  display: inline-block;
+  width: 50%;
+  height: 25px;
+  border-radius: 5px;
+  animation: toggel1 0.7s reverse infinite;
+  animation-direction: alternate-reverse;
+  transition: all 0.7s;
+}
+.darkmood .pair_looding .one span:first-of-type,
+.darkmood .pair_looding .two span:first-of-type,
+.darkmood .pair_looding .three span:first-of-type {
+  background: rgb(207, 207, 207) !important;
+  width: 50px;
+  display: inline-block;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 1%;
+  animation: toggel2 0.7s reverse infinite;
+  animation-direction: alternate-reverse;
+  transition: all 0.7s;
+}
+
+@keyframes toggel1 {
+  from {
+    background: rgb(226, 226, 226);
+  }
+  to {
+    background: rgb(202, 202, 202);
+  }
+}
+@keyframes toggel2 {
+  from {
+    background: rgb(216, 215, 215);
+  }
+  to {
+    background: rgb(177, 177, 177);
+  }
+}
+
+.darkmood .pair_live div {
+  background: #fff;
+  box-shadow: -0px 3px 1px #aaa;
+}
+
+.darkmood .pair_live div p {
+  text-align: center;
+  line-height: 60px;
+  font-size: 16px;
+  width: 80%;
+  height: 100%;
+  color: #000;
+}
+
+.darkmood #player::-webkit-media-controls-panel {
+  background: #eee;
+}
+.darkmood #player::-moz-media-controls-panel {
+  background: #eee;
+}
+.darkmood #player::-o-media-controls-panel {
+  background: #eee;
+}
+
+.darkmood .select i {
+  animation: rot 1s infinite;
+  animation-direction: inherit;
+  color: #666 !important;
+}
+
+.darkmood .bac_main_home {
+  background: url(./imgs/bac_dark2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #f1ae55;
+  align-items: center;
+  direction: rtl;
+  position: relative;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.darkmood .bac_dark {
+  background: rgba(241, 238, 238, 0.952);
+  transition: all 0.2s ease-in;
+}
+
+/*azkar*/
+.darkmood .pair_morning {
+  width: 44%;
+  margin: auto;
+  background: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-row-gap: 1.2rem;
+  grid-column-gap: 1.2rem;
+  padding: 0px 9px;
+  text-align: center;
+  float: left;
+  margin-top: 2%;
+  margin-right: 2%;
+  transition: all 0.2s ease-in;
+  color: #222 !important;
+}
+
+.darkmood .pair_morning h1 {
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 17px 0;
+  color: #fafafa;
+  font-size: 18px;
+  transition: all 0.2s;
+  background: #555;
+  margin-bottom: 0rem;
+}
+.darkmood .pair_morning div {
+  padding: 20px;
+  background: #ddd;
+  box-shadow: -5px -4px 3px 0px rgba(250, 250, 250, 0.425),
+    5px 4px 3px 0px rgba(88, 88, 88, 0.425);
+  border-radius: 20px;
+}
+.darkmood .pair_morning div div{
+  overflow: visible;
+}
+.pair_morning div div{
+  overflow: visible;
+}
+
+.pair_morning div h2 {
+  font-size: 1.7rem;
+  color: #f1ae55;
+}
+.pair_morning div p:first-of-type {
+  font-size: 1.4rem;
+  line-height: 50px;
+}
+
+.pair_morning p:last-of-type {
+  font-size: 1rem;
+  color: #bbb;
+}
+
+.darkmood .pair_morning .night1 {
+  background: #16a387;
+}
+.darkmood .pair_morning .night2 {
+  background: #d48a12;
+}
+.darkmood .pair_morning .night3 {
+  background: #e74c3c;
+}
+.darkmood .pair_morning .night4 {
+  background: #28ad5f;
+}
+.darkmood .pair_morning .night5 {
+  background: #8a50a1;
+}
+
+.darkmood .morning_pairant_hidden {
+  width: 57%;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+
+.darkmood .num {
+  background: rgb(238, 238, 238);
+  position: absolute;
+  top: -15px;
+  left: -15px;
+  font-size: 17px;
+  padding: 5px;
+  border-radius: 10px;    
+}
+.darkmood .num_id{
+  display: inline-block;
+  background: #eee;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  box-shadow: -2px -4px 3px 0px #8d9092 ,
+  5px 4px 3px 0px #7b7f8a ;
+  ;
+}
+
+/*seb7a dark mood*/
+.darkmood .sorry_div{
+  color: #333;
+}
+.darkmood .seb7a{
+  color: #333;
+}
+.darkmood .seb7a{
+  color: #333;
+  background: 0 ;
+  box-shadow: -5px -4px 3px 0px #c3c4c7 ,
+  5px 4px 3px 0px #8b8b91 ;
+}
+.darkmood .seb7a span:first-of-type{
+  background: 0 ;
+  box-shadow: -5px -4px 3px 0px #c3c4c7 ,
+  5px 4px 3px 0px #8b8b91 ;
+}
+.darkmood .seb7a span:last-of-type , .darkmood .seb7a p:first-of-type{
+  background: 0 !important;
+  box-shadow: -5px -4px 3px 0px #c3c4c7 ,
+  5px 4px 3px 0px #8b8b91 ;
+}
+
+.darkmood .effect_seb7a{
+  animation: clickdark .2s ;
+  transition: all .7s ease-in;
+}
+@keyframes clickdark {
+  from{
+    background: 0;
+    box-shadow: -1px -1px 3px 0px #c3c4c7 ,
+  1px 1px 3px 0px #8b8b91 ;
+  }to{
+    background: #e4e3e3;
+   box-shadow: -5px -4px 3px 0px #c3c4c7 ,
+  5px 4px 3px 0px #8b8b91 ;
+  }
+}

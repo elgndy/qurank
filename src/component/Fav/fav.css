@@ -1,0 +1,26 @@
+.fav_pairant{
+    margin-top:3% !important;
+}
+
+.fav_pairant div{
+    color: rgb(226, 78, 19) !important;
+}
+
+.fav_pairant div i{
+    color:#ffab40
+}
+.parts{
+    position: relative;
+}
+.cancels{
+    position: absolute;
+    top: 0;
+    right: 0; 
+    cursor: pointer;
+    color: #ff89658c !important;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 20%;
+
+}

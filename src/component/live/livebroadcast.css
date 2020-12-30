@@ -1,0 +1,86 @@
+.pair_live{
+    float: left;
+    width: 44%;
+    margin: auto;
+    background: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(250px , 1fr));
+    grid-row-gap: 1.2rem;
+    grid-column-gap: 1.2rem; 
+    padding: 0px 9px;
+    text-align: center;
+    transition: all .2s ease-in;
+}
+
+.live_pair_hidden{
+    width: 57%;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+.pair_live div{
+    display: flex;
+    background: #2f363d;
+    border-radius: 3px;
+    padding: 0px;
+    align-items: center;
+    height: 80px;
+    padding:10px;
+    overflow: hidden;
+    box-shadow: -0px 3px 1px rgb(29, 29, 29);
+
+}
+.pair_live div:hover{
+    transform: translateY(-.5%);
+    transition: all .3s;
+}
+
+.pair_live div p {
+    text-align: center;
+    line-height: 60px;
+    font-size: 16px;
+    width: 80%;
+    height: 100%;
+    color: #eee;
+}
+
+.pair_live div i{
+    cursor: pointer;
+    line-height: 60px;
+    display: inline-block;
+    width: 20%;
+    height: 100%;
+    transition: all .2s ease-in;
+    color: #f1a832;
+}
+
+.pair_live div i:hover{
+    transition: all .2s ease-in;
+    transform: scale(1.1);
+}
+
+.play:checked{
+    animation: ret 1s infinite;
+}
+
+@keyframes ret {
+    from{
+        transform: rotate(0deg);
+    }to{
+        transform: rotate(360deg);
+    }
+}
+
+
+.select i{
+    animation: rot 1s infinite;
+    animation-direction: inherit;
+    color: #eee !important;
+}
+
+@keyframes rot {
+    from{
+        transform: rotate(0deg);
+    }to{
+        transform: rotate(360deg);
+    }
+}

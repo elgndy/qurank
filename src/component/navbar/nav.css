@@ -1,0 +1,349 @@
+body {
+  transition: all 0.3s;
+}
+.nav_pair {
+  width: 100%;
+  background: 0;
+  z-index: 200;
+  position: fixed;
+  top: 0;
+  left: 0;
+  align-items: center;
+  justify-content: center;
+  transition: all .2s ease-in;
+
+}
+.info {
+  background: red;
+}
+.info .toggel_icon {
+  text-decoration: none;
+  color: #eee;
+  font-size: 1.4rem;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 2px;
+  transition: all 0.3s;
+  float: right;
+}
+.info .toggel_icon:hover {
+  background: #222;
+}
+/* logo */
+.logo {  
+  display: inline-block;
+}
+
+.logo_icon {
+  width: 40px;
+  height: 40px;
+}
+
+
+.nav_pairant {
+  padding: 1% 2%;
+  float: left;
+  width: 34%;
+    background: 0;
+  position: relative;
+  transition: all 0.3s ease-in;
+}
+.nav_pairant_hidden {
+  width: 37%;
+  transition: all 0.3s ease-in;
+}
+.pair_desk {
+  text-align: center;
+  width: 100%;
+  color: #fff;
+}
+.pair_desk p {
+  font-size: 15px;
+}
+.develop a {
+  color: #fcc67f;
+  text-decoration: none;
+}
+.pair_photo {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+.photo {
+  border-radius: 50%;
+  text-align: center;
+  border: 1px solid #222;
+  box-shadow: 2px 2px 20px #aaa;
+}
+#player {
+  position: relative;
+  width: 100%;
+  height: 40vh;
+  margin-top: 5%;
+  border-radius: 25px;
+  box-shadow: -1px 1px 10px #52585e;
+  z-index: 100;
+  outline: 0;
+  background-image: url(../../imgs/bac3.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#player::-webkit-media-controls-panel {
+  background: linear-gradient(to right , #413d25 , #38342a );
+}
+#player::-moz-media-controls-panel {
+  background: linear-gradient(to right , #413d25 , #38342a );
+}
+#player::-o-media-controls-panel {
+  background: linear-gradient(to right , #413d25 , #38342a );
+}
+.toggel_bac {
+  background-image: url(../../imgs/bacmus2.png);
+}
+/*side bar*/
+
+.list_side {
+  width: 20%;
+  position: fixed;
+  top: 0px;
+  right: 0%;
+  height: 100vh;
+  font-size: 10px;
+  list-style-type: none;
+  transition: all 0.2s ease-in;
+  text-align: right;
+  z-index: 100;
+}
+.hidden {
+  right: -12%;
+}
+.contain_links {
+  margin-top: 40%;
+}
+.list_side a {
+  position: relative;
+  top: 10%;
+  transform: translateY(-10%);
+  right: 10%;
+  background: #404850;
+  box-shadow: -0px 3px 1px #272727;
+  color: #eee;
+  display: block;
+  width: 100%;
+  text-decoration: none;
+  margin-top: 10%;
+  padding: 20px 10px;
+}
+.list_side a li {
+  font-size: 18px;
+  font-weight: bold;
+}
+.list_side a li i {
+  font-size: 18px;
+  float: left;
+  color: #f1ae55;
+}
+
+.form {
+  position: relative;
+  margin-top: 2.5%;
+  top: .5%;
+  z-index: 99;
+  width: 43.9%;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 3%;
+  box-shadow: -0px 3px 1px #272424;
+  transition: all 0.2s ease-in;
+}
+/*.fixed {
+  position: fixed;
+  margin-top: 2.5%;
+  top: .5%;
+  z-index: 999;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 43.9%;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 3%;
+  box-shadow: -0px 3px 1px #272424;
+  transition: all 0.2s ease-in;
+}*/
+.form input {
+  direction: rtl;
+  width: 100%;
+  padding: 22px;
+  background: #343a41;
+  border: 0;
+  outline: 0;
+  color: #fafafa;
+  font-size: 20px;
+}
+
+.icon_search {
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 15px;
+  font-size: 17px;
+  transition: all 0.3s;
+  padding: 15px;
+  color: #aaa;
+}
+.xx {
+  left: 70px;
+  color: #aaa;
+}
+.icon_search:hover {
+  color: #f1ae55;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.xx:hover {
+  color: tomato;
+}
+.coloneelement {
+  border-radius: 5px;
+  overflow: hidden;
+  background: #343a41;
+  text-align: center;
+  color: fff;
+}
+.coloneelement div {
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  padding: 0;
+}
+.coloneelement div p {
+  font-size: 15px;
+  padding-right: 5px;
+}
+
+input[type="checkbox"] {
+  -webkit-appearance: none;
+  visibility: hidden;
+  display: none;
+}
+.check_span {
+  position: relative;
+  top: 0;
+  display: block;
+  width: 45px;
+  height: 19px;
+  background: #555;
+  cursor: pointer;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: all 0.3s ease-in;
+}
+input[type="checkbox"]:checked ~ .check_span {
+  background: #eee;
+}
+.check_span::before {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  transition: all 0.3s ease-in;
+  background: #eee;
+}
+input[type="checkbox"]:checked ~ .check_span::before {
+  transform: translateX(160%);
+  background: #555;
+}
+.label {
+  display: block;
+  display: flex;
+  padding: 10px;
+  width: auto;
+  align-items: center;
+  float: right;
+}
+.label i {
+  font-size: 18px;
+}
+.label i:first-of-type {
+  color: #fff;
+  transition: all 0.3s;
+  text-shadow: 1px 2px 5px #eee;
+}
+.label i:nth-last-of-type(1) {
+  transition: all 0.3s;
+  -webkit-text-shadow: 2px 2px 5px #333;
+  -moz-text-shadow: 2px 2px 5px #333;
+  -o-text-shadow: 2px 2px 5px #333;
+  text-shadow: 2px 2px 5px #333;
+
+}
+
+.not{ /* تحت التعديل */
+  text-decoration: line-through;
+}
+
+.hide{
+  right:-100% !important
+}
+
+
+.bac_main_home{
+  width:100%;
+  height: 75vh;
+  margin: auto;
+  background: url(../../imgs/bacground_one.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color:#f1ae55;
+  align-items: center;
+  direction: rtl;
+  position: relative;
+  display: grid;
+  justify-content: center;
+  -webkit-transition: all .2s ease-in;
+  -moz-transition: all .2s ease-in;
+  -o-transition: all .2s ease-in;
+  transition: all .2s ease-in
+}
+.bac_main_home .cover{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background: rgba(0,0,0,.1);
+}
+.bac_main_home div{
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  text-align: center;
+}
+.bac_main_home h1{
+  font-family: cursive;
+  font-size: 2.5rem;
+  text-shadow: 1px 2.3px 1px #fff8ea;;
+
+}
+.bac_main_home p{
+  font-size: 1.4rem;
+  color: hsl(0, 0%, 100%);
+  text-shadow: 1px 2.3px 1px #fa8e01;;
+}
+
+.bac_dark{
+  background: rgb(52, 58, 65 , 0.952);
+  transition: all .2s ease-in;
+}

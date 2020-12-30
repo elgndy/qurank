@@ -1,0 +1,121 @@
+.pair_all{
+  float: left;
+  width: 44%;
+  margin: auto;
+  padding: 0px 9px;
+  transition: all .2s ease-in;
+}
+.audio_hidden{
+  width:57%;
+}
+.pair_audio {
+  background: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-row-gap: 1.5rem;
+  grid-column-gap: 2.5rem;
+  text-align: center;
+  color: #fff;
+
+}
+.pair_audio_grid{
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  transition: all .2s;
+}
+.pair_audio div {
+  background: #2f363d;
+  border-radius: 3px;
+  box-shadow: -0px 3px 1px #1d1b1b;
+
+}
+.audio {
+  display: inline-block;
+  width: 100%;
+  background: #bcc3c913 !important;
+  cursor: pointer;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.audio i {
+  color: #fdc872;
+  transition: all 0.2s;
+}
+/*.dif i {
+  color: rgb(245, 150, 133);
+}*/
+
+.audio:hover i {
+  transform: scale(1.2);
+  color: #fdbb51;
+  transition: all 0.2s;
+}
+.audio:hover {
+  background: #65707c;
+}
+.pair_audio p {
+  color: #ddd;
+  font-size: 20px;
+}
+.dif:hover i {
+  color: rgb(252, 126, 104) !important;
+}
+
+.pair_audio_control {
+  display: flex;
+}
+
+
+.infos{
+  width: 90%;
+  margin-bottom: 6%;
+  text-align: center;
+  float: right;
+  margin-right: 5%;
+  
+}
+.center2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+  grid-row-gap: .2rem;
+  grid-column-gap: .2rem;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  
+  
+  }
+.infos p{
+  background: #2f363d;
+  color: #ffab40;
+  border-radius: 20px;
+  padding: 8px 8px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0%  0% 3%;
+  display: flex;
+  box-shadow: -0px 2px 1px #1d1b1b;
+}
+.infos p span{ 
+  font-size: 16px;
+  display: inline-block;
+  margin-right: 2%;
+}
+.infos p i {
+  font-size: 19px;
+  float: left;
+}
+.clear{
+  clear: both;
+}
+.suranum1{
+  color: #fff !important;
+   font-size: 20px !important;
+   margin-bottom: 0% !important;
+}
+.suranum2{
+  color: #bbb !important;
+   font-size: 14px !important;
+   margin-bottom: 10% !important;
+}
+
